@@ -3,84 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/contact.css">
     <title>Thimdrine</title>
 </head>
 <body>
-    <iframe src="layouts/header.html" frameborder="0"></iframe>
+    <header>
+        <div>
+            <img src="images/logo.jpg" alt="logo">
+        </div>
+        <div id="link_container">
+            <a href="index.html" target="_parent" class="pages_link">Accueil</a>
+            <a href="nos_produits.html" target="_parent" class="pages_link">Nos produits</a>
+            <a href="a_propos.html" target="_parent" class="pages_link">A propos</a>
+            <a href="contact.html" target="_parent" class="pages_link">Contact</a>
+        </div>
+    </header>
+
     <section class="contact-header-section">
-    <div class="contact-header-container">
-        <h2 class="contact-header-title">CONTACT</h2>
-        <p class="contact-header-intro">
-            Vous avez des questions sur nos produits, besoin d'un devis sur mesure ou souhaitez devenir partenaire ? Contactez-nous dès aujourd'hui, notre équipe vous répondra dans les meilleurs délais.
-        </p>
-    </div>
-</section>
-<section class="order-contact-section">
-    <div class="order-contact-container">
+        <div class="contact-header-container">
+            <h2 class="contact-header-title">CONTACT</h2>
+            <p class="contact-header-intro">
+                Vous avez des questions sur nos produits, besoin d'un devis sur mesure ou souhaitez devenir partenaire ? Contactez-nous dès aujourd'hui, notre équipe vous répondra dans les meilleurs délais.
+            </p>
+        </div>
+    </section>
+
+    <section class="order-contact-section">
+        <div class="order-contact-container">
+
+            <div class="order-form-column">
+                <h2 class="column-title">DEMANDE DE COMMANDE</h2>
+
+                <form action="#" method="POST" class="order-form">
+                    <div class="form-row row-2">
+                        <div class="form-group">
+                            <label for="fullname">NOM COMPLET</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row row-3">
+                        <div class="form-group">
+                            <label for="phone">TÉLÉPHONE</label>
+                            <input type="tel" id="phone" name="phone" placeholder="06 00 00 00 00">
+                        </div>
+                        <div class="form-group">
+                            <label for="product">PRODUIT SOUHAITÉ</label>
+                            <input type="text" id="product" name="product" placeholder="Ex: Huile d'olive Bio">
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">QUANTITÉ</label>
+                            <input type="text" id="quantity" name="quantity" placeholder="Ex: 2 bouteilles">
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Précisions sur votre commande, adresse de livraison..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">ENVOYER LA DEMANDE</button>
+                </form>
+            </div>
+
+            <div class="contact-info-column">
+                <h2 class="column-title">INFORMATIONS DE CONTACT</h2>
+
+                <div class="info-details">
+                    <div class="info-item">
+                        <span class="info-label">Adresse</span>
+                        <p class="info-value">Coopérative Thimdrine, Nador, Maroc</p>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">Téléphone</span>
+                        <p class="info-value">+212 5 22 00 00 00</p>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">Email</span>
+                        <p class="info-value">contact@thimdrine.ma</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<link rel="stylesheet" href="style/footer.css">
+
+<footer class="footer">
+    <div class="footer-container">
         
-        <div class="order-form-column">
-            <h2 class="column-title">DEMANDE DE COMMANDE</h2>
-            
-            <form action="#" method="POST" class="order-form">
-                <div class="form-row row-2">
-                    <div class="form-group">
-                        <label for="fullname">NOM COMPLET</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Votre nom" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
-                    </div>
-                </div>
-
-                <div class="form-row row-3">
-                    <div class="form-group">
-                        <label for="phone">TÉLÉPHONE</label>
-                        <input type="tel" id="phone" name="phone" placeholder="06 00 00 00 00">
-                    </div>
-                    <div class="form-group">
-                        <label for="product">PRODUIT SOUHAITÉ</label>
-                        <input type="text" id="product" name="product" placeholder="Ex: Huile d'olive Bio">
-                    </div>
-                    <div class="form-group">
-                        <label for="quantity">QUANTITÉ</label>
-                        <input type="text" id="quantity" name="quantity" placeholder="Ex: 2 bouteilles">
-                    </div>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="message">MESSAGE</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Precisions sur votre commande, adresse de livraison..."></textarea>
-                </div>
-
-                <button type="submit" class="submit-btn">ENVOYER LA DEMANDE</button>
-            </form>
+        <div class="footer-brand">
+            <a href="#" class="footer-logo">THIMDRINE</a>
+            <p class="footer-description">
+                Votre partenaire de confiance pour découvrir et acheter les meilleurs produits en ligne avec une livraison rapide et un service client dédié.
+            </p>
         </div>
 
-        <div class="contact-info-column">
-            <h2 class="column-title">INFORMATIONS DE CONTACT</h2>
+       
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../nos_produits.html">Nos produits</a></li>
+                    <li><a href="../a_propos.html">À propos</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
 
-            <div class="info-details">
-                <div class="info-item">
-                    <span class="info-label">Adresse</span>
-                    <p class="info-value">Coopérative Thimdrine, Nador, Maroc</p>
-                </div>
+            
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li>123 NADOR, MAROC</li>
+                    <li>+212 5 23 45 67 89</li>
+                    <li>contact@thimdrine.com</li>
+                </ul>
+            </div>
 
-                <div class="info-item">
-                    <span class="info-label">Téléphone</span>
-                    <p class="info-value">+212 5 22 00 00 00</p>
-                </div>
-
-                <div class="info-item">
-                    <span class="info-label">Email</span>
-                    <p class="info-value">contact@thimdrine.ma</p>
+           
+            <div class="footer-column">
+                <h4>Réseaux sociaux</h4>
+                <div class="social-icons">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                 </div>
             </div>
         </div>
-
     </div>
-</section>
-    <iframe src="layouts/footer.html" frameborder="0"></iframe>
-</body>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Thimdrine. Tous droits réservés.</p>
+    </div>
+</footer></body>
 </html>
