@@ -18,7 +18,6 @@ section{
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Zone de contenu centrée */
 .cta-container {
     max-width: 700px;
     margin: 0 auto;
@@ -27,7 +26,6 @@ section{
     align-items: center;
 }
 
-/* Titre principal */
 .cta-title {
     font-size: 28px;
     font-weight: 800;
@@ -37,7 +35,6 @@ section{
     letter-spacing: 1px;
 }
 
-/* Texte court/description */
 .cta-text {
     font-size: 15px;
     line-height: 1.6;
@@ -47,7 +44,6 @@ section{
     max-width: 600px;
 }
 
-/* Container de la section */
 .products-grid-section {
     width: 100%;
     padding: 60px 40px;
@@ -56,7 +52,6 @@ section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Layout de la grille (3 colonnes sur PC) */
 .products-grid-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -65,7 +60,6 @@ section{
     gap: 25px;
 }
 
-/* Carte de produit */
 .product-card {
     border: 1px solid #dcdcdc;
     background-color: #ffffff;
@@ -81,7 +75,6 @@ section{
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* Image du produit */
 .product-image {
     width: 100%;
     height: 200px;
@@ -97,7 +90,6 @@ section{
     display: block;
 }
 
-/* Style de remplacement pour les images sans visuel */
 .product-image.placeholder {
     display: flex;
     align-items: center;
@@ -107,7 +99,6 @@ section{
     font-weight: 600;
 }
 
-/* Détails du produit */
 .product-details {
     display: flex;
     flex-direction: column;
@@ -131,7 +122,6 @@ section{
     flex-grow: 1;
 }
 
-/* Information / Prix */
 .product-info {
     font-size: 12px;
     font-weight: 600;
@@ -140,7 +130,6 @@ section{
     text-transform: uppercase;
 }
 
-/* Bouton Découvrir */
 .product-btn {
     display: inline-block;
     align-self: flex-start;

@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 
-/* Style global du header */
 header {
     display: flex;
     justify-content: space-between;

@@ -12,12 +12,10 @@ section{
     box-sizing: border-box; 
 }
 
-/* Container global de la section */
 .hero-section {
     padding-bottom: 40px;
 }
 
-/* Alignement en 2 colonnes avec Flexbox */
 .hero-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,7 +25,6 @@ section{
     gap: 50px;
 }
 
-/* Colonne de gauche (Texte) */
 .hero-content {
     flex: 1;
     max-width: 550px;
@@ -40,7 +37,7 @@ section{
     margin-bottom: 20px;
     line-height: 1.2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase; /* Pour correspondre au style majuscule de la maquette */
+    text-transform: uppercase;
 }
 
 .hero-text {
@@ -51,7 +48,6 @@ section{
     font-family: Arial, sans-serif;
 }
 
-/* Bouton d'action (CTA) */
 .hero-btn {
     display: inline-block;
     padding: 12px 28px;
@@ -70,7 +66,6 @@ section{
     color: #ffffff;
 }
 
-/* Colonne de droite (Image) */
 .hero-image {
     flex: 1;
     display: flex;
@@ -81,17 +76,15 @@ section{
     width: 100%;
     max-width: 550px;
     height: auto;
-    border-radius: 4px; /* Optionnel : léger arrondi */
+    border-radius: 4px;
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* Container global de la section */
 .about-section {
     padding: 60px 40px;
 }
 
-/* Alignement en 2 colonnes avec Flexbox */
 .about-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -101,7 +94,6 @@ section{
     gap: 50px;
 }
 
-/* Colonne de gauche (Image) */
 .about-image {
     flex: 1;
     display: flex;
@@ -117,7 +109,6 @@ section{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* Colonne de droite (Texte) */
 .about-content {
     flex: 1;
     max-width: 550px;
@@ -141,7 +132,6 @@ section{
     font-family: Arial, sans-serif;
 }
 
-/* Bouton d'action (CTA) */
 .about-btn {
     display: inline-block;
     padding: 12px 28px;
@@ -160,14 +150,11 @@ section{
     color: #ffffff;
 }
 
-
-/* Container principal de la section */
 .featured-products {
     padding: 60px 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Titre principal centré */
 .section-title {
     text-align: center;
     font-size: 28px;
@@ -178,7 +165,6 @@ section{
     text-transform: uppercase;
 }
 
-/* Grille des cartes produits */
 .products-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -187,7 +173,6 @@ section{
     gap: 30px;
 }
 
-/* Style individuel des cartes (Bordure fine entourant la carte) */
 .product-card {
     flex: 1;
     border: 1px solid #dcdcdc;
@@ -219,7 +204,6 @@ section{
     display: block;
 }
 
-/* Informations sous l'image */
 .product-info {
     display: flex;
     flex-direction: column;
@@ -244,7 +228,6 @@ section{
     font-family: Arial, sans-serif;
 }
 
-/* Bouton d'action */
 .product-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -263,7 +246,6 @@ section{
     color: #ffffff;
 }
 
-/* Container principal de la section CTA */
 .cta-section {
     padding: 70px 20px;
     text-align: center;
@@ -271,7 +253,6 @@ section{
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Zone de contenu centrée */
 .cta-container {
     max-width: 700px;
     margin: 0 auto;
@@ -280,7 +261,6 @@ section{
     align-items: center;
 }
 
-/* Titre principal */
 .cta-title {
     font-size: 28px;
     font-weight: 800;
@@ -290,7 +270,6 @@ section{
     letter-spacing: 1px;
 }
 
-/* Texte court/description */
 .cta-text {
     font-size: 15px;
     line-height: 1.6;
@@ -300,7 +279,6 @@ section{
     max-width: 600px;
 }
 
-/* Bouton d'action */
 .cta-btn {
     display: inline-block;
     padding: 12px 30px;

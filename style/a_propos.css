@@ -13,17 +13,15 @@ section{
 }
 
 
-/* Container global de la section */
 .about-hero-section {
     width: 100%;
-    background-color: #f8f9fa; /* Fond léger très clair */
+    background-color: #f8f9fa;
     padding: 60px 40px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Alignement centré */
 .about-hero-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -32,7 +30,6 @@ section{
     align-items: center;
 }
 
-/* En-tête du texte (Titre + Intro) */
 .about-hero-header {
     text-align: center;
     max-width: 700px;
@@ -56,11 +53,10 @@ section{
     font-family: Arial, sans-serif;
 }
 
-/* Grande image panoramique */
 .about-hero-image {
     width: 100%;
     max-height: 400px;
-    background-color: #e0e0e0; /* Fond par défaut (placeholder) */
+    background-color: #e0e0e0;
     border: 1px solid #dcdcdc;
     overflow: hidden;
 }
@@ -73,7 +69,6 @@ section{
     display: block;
 }
 
-/* Container global de la section */
 .story-section {
     width: 100%;
     padding: 60px 40px;
@@ -83,7 +78,6 @@ section{
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Alignement Flexbox à 2 colonnes */
 .story-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -93,7 +87,6 @@ section{
     gap: 50px;
 }
 
-/* Colonne de gauche (Image) */
 .story-image {
     flex: 1;
     display: flex;
@@ -106,10 +99,9 @@ section{
     height: auto;
     border-radius: 4px;
     object-fit: cover;
-    background-color: #e0e0e0; /* Fond par défaut (placeholder) */
+    background-color: #e0e0e0;
 }
 
-/* Colonne de droite (Texte) */
 .story-content {
     flex: 1;
     max-width: 550px;
@@ -132,17 +124,15 @@ section{
     font-family: Arial, sans-serif;
 }
 
-/* Conteneur principal de la section avec fond gris clair */
 .stats-section {
     width: 100%;
-    background-color: #f5f5f5; /* Fond gris clair identique à la maquette */
+    background-color: #f5f5f5;
     padding: 60px 40px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Alignement des 4 cartes en grille */
 .stats-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -151,7 +141,6 @@ section{
     gap: 20px;
 }
 
-/* Style de chaque carte blanche */
 .stat-card {
     background-color: #ffffff;
     border: 1px solid #dcdcdc;
@@ -170,7 +159,6 @@ section{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Grand nombre au centre */
 .stat-number {
     font-size: 38px;
     font-weight: 800;
@@ -179,7 +167,6 @@ section{
     margin-bottom: 12px;
 }
 
-/* Libellé sous le chiffre */
 .stat-label {
     font-size: 11px;
     font-weight: 600;
